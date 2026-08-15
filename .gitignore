@@ -1,0 +1,25 @@
+# Credenciales (NUNCA subir)
+*.pem
+*.key
+credentials
+.aws/
+.azure/
+.config/gcloud/
+*.json
+!package.json
+
+# Resultados de escaneos
+*.csv
+*.xml
+loot/
+output/
+results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporal
+*.log
+*.tmp
